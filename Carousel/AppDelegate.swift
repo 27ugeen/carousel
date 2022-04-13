@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let navigationController = UINavigationController(rootViewController: ViewController().self)
+        let navigationController = UINavigationController(rootViewController: CarouselViewController().self)
 //        navigationController.isNavigationBarHidden = true
         
         window = UIWindow(frame: UIScreen.main.bounds)
